@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #511378;
+  color: #fefefe;
+  font-family: helvetica;
+  font-size: 25px;
+}
+.menu {
+  margin: 0;
+  padding: 5%;
+  width: 100%;
+  height: 10%;
+  background: #f85a40;
+}
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  padding: 2%;
+  list-style: none;
+  float: right;
+}
