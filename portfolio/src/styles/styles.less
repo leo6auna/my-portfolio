@@ -2,6 +2,7 @@
 
 @fondo : #222;
 @titulo: #0dd3ff;
+@verde: #2dde98;
 @color-fuente: #fefefe;
 @fuente: 'Montserrat Alternates';
 @txtGde: 25px;
@@ -14,39 +15,58 @@ body{
     font-family: @fuente;
     font-size: @txtGde;
 }
-
+.page{
+    display: flex;
+}
 .container{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     width: 15vw;
     height: 100vh;
-    background: @fondo2;
-    border-right: #0dd3ff 2px solid;
+    background: @fondo;
+    border-right: @verde 2px solid;
     display: flex;
     
         .menu{
-            margin: auto;
+            margin-left: 1px;
             span{
-            margin-top: 5px;
+            margin-top: 15px;
             margin-left: 15px;
         }
             ul{
+                padding: 0px;
+                margin-top: 75vh;
                 flex-direction: column;
-                margin-top: 50vh;
+
+                
                 li{
-                    margin: 0;
+                    
+                    margin-left: 15px;
                     list-style: none;
                     
                     
                    }
                 }
-                .caja{
-                    width: 50px;
-                    height: 50px;
-                    background: #fff;
-                }
+               
     }
 }
 
+.content{
+    width: 85vw;
+    height: 100vh;
+    background: @fondo;
+    margin-left: 0px;
+    margin-top: 0px;
+    justify-content: center;
     
-
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    .foto{
+        
+        width: 30%;
+    }
+}

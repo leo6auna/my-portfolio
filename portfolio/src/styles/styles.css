@@ -6,32 +6,48 @@ body {
   font-family: 'Montserrat Alternates';
   font-size: 25px;
 }
+.page {
+  display: flex;
+}
 .container {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   width: 15vw;
   height: 100vh;
-  background: #f85a40;
-  border-right: #0dd3ff 2px solid;
+  background: #222;
+  border-right: #2dde98 2px solid;
   display: flex;
 }
 .container .menu {
-  margin: auto;
+  margin-left: 1px;
 }
 .container .menu span {
-  margin-top: 5px;
+  margin-top: 15px;
   margin-left: 15px;
 }
 .container .menu ul {
+  padding: 0px;
+  margin-top: 75vh;
   flex-direction: column;
-  margin-top: 50vh;
 }
 .container .menu ul li {
-  margin: 0;
+  margin-left: 15px;
   list-style: none;
 }
-.container .menu .caja {
-  width: 50px;
-  height: 50px;
-  background: #fff;
+.content {
+  width: 85vw;
+  height: 100vh;
+  background: #222;
+  margin-left: 0px;
+  margin-top: 0px;
+  justify-content: center;
+}
+.content h1 {
+  text-align: center;
+}
+.content h2 {
+  text-align: center;
+}
+.content .foto {
+  width: 30%;
 }

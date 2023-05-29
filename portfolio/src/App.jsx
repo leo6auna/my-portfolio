@@ -1,13 +1,13 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './styles/styles.css'
+
 
 function App() {
   
 
   return (
-    <div className="container">
+    <div className="page">
+      <div className="container">
           <nav className='menu'>
               <span>
                 Mi portfolio
@@ -18,12 +18,18 @@ function App() {
                 <li>Galería</li>
                 <li>Contacto</li>
               </ul>
-            
-            <div className="caja">
-
-            </div>
           </nav>
+      </div>
+      <div className="content">
+        <h1>
+          Web Developer
+        </h1>
+        <img src='/fotera.jpg' className='foto' alt="Profile picture" srcset="" />
+        <h2>Leonardo Gauna</h2>
+      </div>
     </div>
+
+
   )
 }
 
